@@ -469,7 +469,7 @@ const changeTwo = (e) => {
           <p className='wordP'>{password}</p>
           <div className='rightSide'>
           <p className="copied">{copied}</p>
-          <img className='copy' onClick={copyPassword} src="./src/assets/icon-copy.svg" alt="" srcSet="" />
+          <img className='copy' onClick={copyPassword} src="/assets/icon-copy.svg" alt="" srcSet="" />
           </div>
         </div>
         <div className='mainContent'>
@@ -495,7 +495,7 @@ const changeTwo = (e) => {
             </div>
             </div>
           </div>
-          <button onClick={generate} className="generate"><p>GENERATE</p> <img src="./src/assets/icon-arrow-right.svg" alt="" /></button>
+          <button onClick={generate} className="generate"><p>GENERATE</p> <img src="/assets/icon-arrow-right.svg" alt="" /></button>
         </div>
       </div>
       </div>
